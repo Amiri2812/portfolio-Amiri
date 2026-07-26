@@ -133,7 +133,7 @@ git push
 
 GitHub Pages republiera automatiquement la nouvelle version.
 
-## Auteur
+Portfolio publié avec GitHub Pages.
 
 **Abdelhadi Amiri**  
 Data Science & Intelligence Artificielle  
