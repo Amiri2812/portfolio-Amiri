@@ -3,25 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio d'Abdelhadi Amiri, élève ingénieur en Data Science et Intelligence Artificielle : LLM, NLP, Machine Learning, Deep Learning, Big Data et MLOps." />
+  <title>Abdelhadi Amiri | Élève ingénieur Data Science & IA — Stage PFE 2027</title>
+  <meta name="description" content="Abdelhadi Amiri, élève ingénieur en Data Science et IA (ENSA Fès), à la recherche d'un stage PFE 2027 : LLM, RAG, systèmes multi-agents, NLP, Machine Learning et Big Data." />
   <meta name="author" content="Abdelhadi Amiri" />
   <meta name="theme-color" content="#0f172a" />
+  <link rel="canonical" href="https://amiri2812.github.io/portfolio-Amiri/" />
 
-  <meta property="og:title" content="Abdelhadi Amiri — Data Science & Intelligence Artificielle" />
-  <meta property="og:description" content="Découvrez mes expériences, projets et compétences en Data Science, LLM, NLP, Deep Learning, Big Data et MLOps." />
+  <meta property="og:title" content="Abdelhadi Amiri — Data Science & IA · Stage PFE 2027" />
+  <meta property="og:description" content="Pipelines multi-agents LLM, systèmes RAG, Deep Learning et Big Data. Découvrez mes expériences et projets." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://amiri2812.github.io/portfolio-Amiri/" />
+  <meta property="og:image" content="https://amiri2812.github.io/portfolio-Amiri/assets/images/preview.png" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <title>Abdelhadi Amiri | Data Science & IA</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <script
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-  defer>
-</script>
+
+  <!-- Petit ajout de style (badge de disponibilité) : utilise les variables de style.css -->
+  <style>
+    .availability {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      margin: 0 0 1.1rem;
+      padding: 0.45rem 0.95rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .availability::before {
+      content: "";
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      background: var(--primary);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary) 25%, transparent);
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
   <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abdelhadi Amiri",
+    "jobTitle": "Élève ingénieur en Data Science & IA",
+    "url": "https://amiri2812.github.io/portfolio-Amiri/",
+    "email": "mailto:abdelhadiamiri02@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Fès", "addressCountry": "MA" },
+    "alumniOf": "ENSA Fès",
+    "sameAs": [
+      "https://github.com/Amiri2812",
+      "https://www.linkedin.com/in/abdelhadi-amiri1"
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Aller au contenu</a>
@@ -51,63 +96,49 @@
   </header>
 
   <main id="main-content">
+    <!-- ================= HERO ================= -->
     <section class="hero section">
       <div class="hero-grid container">
         <div class="hero-copy reveal">
+          <p class="availability">Disponible pour un stage PFE 2027</p>
           <p class="eyebrow">Élève ingénieur · Data Science & IA</p>
-            <h1>Je conçois des solutions en <span>Data Science et Intelligence Artificielle.</span></h1>          <p class="hero-text">
-            Spécialisé en Machine Learning, Deep Learning, NLP et Large Language Models, je conçois des pipelines IA, des systèmes RAG et des solutions d'analyse de données à fort impact.
+          <h1>Je conçois des systèmes <span>LLM, RAG et multi-agents</span> appliqués à des cas réels.</h1>
+          <p class="hero-text">
+            Élève ingénieur à l'ENSA Fès, spécialisé en NLP, LLM, Machine Learning et Deep Learning.
+            J'ai conçu un pipeline multi-agent pour structurer des comptes rendus médicaux
+            et un chatbot RAG pour le tourisme.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">Voir mes projets</a>
-            <a class="btn btn-secondary" href="assets/documents/CV_Amiri_Abdelhadi_Am.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
+            <a class="btn btn-secondary" href="assets/documents/CV_Amiri_Abdelhadi_PFE2027.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
           </div>
-              <div class="hero-links" aria-label="Liens professionnels">
-              <a href="mailto:abdelhadiamiri02@gmail.com">
-                abdelhadiamiri02@gmail.com
-              </a>
-
-              <span aria-hidden="true">•</span>
-
-              <a
-                href="https://www.linkedin.com/in/abdelhadi-amiri-381254313/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-
-              <span aria-hidden="true">•</span>
-
-              <a
-                href="https://github.com/Amiri2812"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-
-              <span aria-hidden="true">•</span>
-
-              <span>Fès, Maroc</span>
-            </div>
+          <div class="hero-links" aria-label="Liens professionnels">
+            <a href="mailto:abdelhadiamiri02@gmail.com">abdelhadiamiri02@gmail.com</a>
+            <span aria-hidden="true">•</span>
+            <a href="https://www.linkedin.com/in/abdelhadi-amiri1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <span aria-hidden="true">•</span>
+            <a href="https://github.com/Amiri2812" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span aria-hidden="true">•</span>
+            <span>Fès, Maroc</span>
+          </div>
         </div>
 
-              <div class="hero-visual reveal">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="profile-card glass-card">
-          <img
-            class="profile-photo"
-            src="assets/images/abdelhadi-amiri.png"
-            alt="Portrait d'Abdelhadi Amiri"
-          />
+        <div class="hero-visual reveal">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="profile-card glass-card">
+            <img
+              class="profile-photo"
+              src="assets/images/abdelhadi-amiri.png"
+              alt="Portrait d'Abdelhadi Amiri"
+              decoding="async"
+            />
             <div>
               <p class="profile-role">Data Science · AI Engineering</p>
               <h2>Abdelhadi Amiri</h2>
             </div>
             <div class="mini-stack">
-              <span>LLM</span><span>NLP</span><span>ML</span><span>Big Data</span>
+              <span>LLM</span><span>RAG</span><span>NLP</span><span>ML</span>
             </div>
             <div class="code-window">
               <div class="code-dots"><i></i><i></i><i></i></div>
@@ -118,39 +149,42 @@
       </div>
     </section>
 
+    <!-- ================= À PROPOS ================= -->
     <section class="section section-soft" id="about">
-          <div class="about-content reveal">
-            <p>
-              Élève ingénieur en Science des Données et Intelligence Artificielle,
-              je développe des solutions basées sur le Machine Learning, le Deep
-              Learning, les LLM, le Big Data et le MLOps.
-            </p>
+      <div class="about-content reveal">
+        <p>
+          Élève ingénieur en Science des Données et Intelligence Artificielle (ISDIA – ENSA Fès),
+          je développe des solutions basées sur les LLM, le Machine Learning, le Deep Learning,
+          le Big Data et le MLOps.
+        </p>
 
-            <p>
-              Mes projets couvrent l’extraction et la structuration de données
-              médicales, les systèmes RAG et multi-agents, la Computer Vision,
-              l’analyse distribuée avec Apache Spark et la Business Intelligence.
-            </p>
+        <p>
+          Mes projets couvrent l'extraction et la structuration de données médicales,
+          les systèmes RAG et multi-agents, la Computer Vision, l'analyse distribuée
+          avec Apache Spark et la Business Intelligence. Je recherche un
+          <strong>stage de fin d'études (PFE) en 2027</strong> en IA, LLM ou Data Engineering.
+        </p>
 
-            <div class="stats-grid">
-              <article>
-                <strong>2</strong>
-                <span>Expériences professionnelles</span>
-              </article>
+        <div class="stats-grid">
+          <article>
+            <strong>2</strong>
+            <span>Stages réalisés</span>
+          </article>
 
-              <article>
-                <strong>7</strong>
-                <span>Projets IA & Data</span>
-              </article>
+          <article>
+            <strong>8</strong>
+            <span>Projets IA & Data</span>
+          </article>
 
-              <article>
-                <strong>10+</strong>
-                <span>Technologies maîtrisées</span>
-              </article>
-            </div>
-    </div>
+          <article>
+            <strong>10+</strong>
+            <span>Technologies pratiquées</span>
+          </article>
+        </div>
+      </div>
     </section>
 
+    <!-- ================= EXPÉRIENCES ================= -->
     <section class="section" id="experience">
       <div class="container">
         <div class="section-heading narrow reveal">
@@ -166,15 +200,17 @@
               <div class="timeline-topline">
                 <div>
                   <p class="timeline-company">Faculté de Médecine, de Pharmacie et de Médecine Dentaire de Fès</p>
-                  <h3>Stage d'application — Projet de fin d'année</h3>
+                  <h3>Stage d'application</h3>
                 </div>
-                <time>Juin – Juillet 2026</time>
+                <time datetime="2026-06">Juin – Juillet 2026</time>
               </div>
               <p class="project-label">Extraction et structuration intelligente de comptes rendus médicaux</p>
               <ul>
-                <li>Conception d'un pipeline multi-agent basé sur les LLM pour extraire et structurer des données médicales.</li>
-                <li>Mise en place de la segmentation, de l'anonymisation, de la standardisation et de la validation automatique.</li>
-                <li>Développement avec Python, FastAPI, LangGraph et MySQL.</li>
+                <li>Conception d'un pipeline multi-agent basé sur les LLM (LangGraph) pour extraire et structurer automatiquement les données de comptes rendus médicaux.</li>
+                <li>Mise en place de la segmentation, de l'anonymisation, de la standardisation et de la validation des données cliniques.</li>
+                <li>Développement d'une API avec Python, FastAPI et stockage dans MySQL.</li>
+                <!-- AJOUTE UN RÉSULTAT CHIFFRÉ ICI, par ex. :
+                <li>Traitement de [X] comptes rendus avec [Y] % de champs correctement extraits.</li> -->
               </ul>
               <div class="tag-list"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>LLM</span><span>MySQL</span></div>
             </div>
@@ -188,12 +224,13 @@
                   <p class="timeline-company">Office National des Aéroports (ONDA) — Fès</p>
                   <h3>Stage d'initiation</h3>
                 </div>
-                <time>Juillet 2025</time>
+                <time datetime="2025-07">Juillet 2025</time>
               </div>
               <p class="project-label">Détection d'anomalies des équipements CNS radar</p>
               <ul>
-                <li>Développement d'une solution de détection d'anomalies appliquée aux équipements CNS radar.</li>
-                <li>Mise en place d'une approche MLOps pour le suivi et l'automatisation du modèle.</li>
+                <li>Développement d'une approche de détection d'anomalies appliquée aux équipements CNS radar.</li>
+                <li>Mise en place d'une approche MLOps pour le suivi, l'évaluation et l'automatisation des modèles de Machine Learning.</li>
+                <!-- AJOUTE UN RÉSULTAT CHIFFRÉ ICI (précision, rappel, F1…) -->
               </ul>
               <div class="tag-list"><span>Machine Learning</span><span>MLOps</span><span>Python</span><span>Détection d'anomalies</span></div>
             </div>
@@ -202,188 +239,152 @@
       </div>
     </section>
 
+    <!-- ================= PROJETS ================= -->
     <section class="section section-dark" id="projects">
-  <div class="container">
+      <div class="container">
 
-    <div class="section-heading narrow reveal">
-      <p class="eyebrow">Sélection</p>
-      <h2>Des projets couvrant l’IA, le Big Data et l’ingénierie logicielle.</h2>
-      <p>
-        Une sélection de réalisations mettant en pratique le Deep Learning,
-        les LLM, l’analyse de données, Apache Spark, la Business Intelligence
-        et les systèmes multi-agents.
-      </p>
-    </div>
-
-    <!-- Projets -->
-    <div class="projects-grid">
-
-      <!-- Projet 01 -->
-      <article class="project-card reveal">
-        <div class="project-number">01</div>
-        <div class="project-icon" aria-hidden="true">◉</div>
-
-        <h3>Détection de Deepfakes</h3>
-
-        <p>
-          Développement d’un modèle CNN basé sur le Transfer Learning
-          pour classifier des images faciales réelles ou générées
-          artificiellement.
-        </p>
-
-        <div class="tag-list">
-          <span>Deep Learning</span>
-          <span>CNN</span>
-          <span>Transfer Learning</span>
-          <span>Computer Vision</span>
+        <div class="section-heading narrow reveal">
+          <p class="eyebrow">Sélection</p>
+          <h2>Des projets couvrant l'IA, le Big Data et l'ingénierie logicielle.</h2>
+          <p>
+            Une sélection de réalisations mettant en pratique les LLM, le Deep Learning,
+            Apache Spark, la Business Intelligence et les systèmes multi-agents.
+          </p>
         </div>
-          <a
-          class="project-link"
-          href="https://github.com/Amiri2812/deepfake_Project"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Voir le projet Détection de Deepfakes sur GitHub"
-        >
-          Voir le projet sur GitHub ↗
-        </a>
-      </article>
 
-      <!-- Projet 02 -->
-      <article class="project-card reveal">
-        <div class="project-number">02</div>
-        <div class="project-icon" aria-hidden="true">⌁</div>
+        <div class="projects-grid">
 
-        <h3>Chatbot LLM basé sur RAG</h3>
+          <!-- 01 -->
+          <article class="project-card reveal">
+            <div class="project-number">01</div>
+            <div class="project-icon" aria-hidden="true">⌁</div>
+            <h3>Mar7ba Bik — Chatbot RAG touristique</h3>
+            <p>
+              Assistant conversationnel qui répond aux questions sur les monuments, hôtels,
+              restaurants et lieux touristiques grâce à un système RAG : embeddings,
+              recherche vectorielle et modèles Hugging Face, exposé via une API.
+            </p>
+            <div class="tag-list">
+              <span>LLM</span><span>RAG</span><span>Embeddings</span><span>Hugging Face</span><span>FastAPI</span><span>MySQL</span>
+            </div>
+            <!-- Décommente et remplace NOM_DU_REPO quand le dépôt est public :
+            <a class="project-link" href="https://github.com/Amiri2812/NOM_DU_REPO" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet Mar7ba Bik sur GitHub">Voir le projet sur GitHub ↗</a> -->
+          </article>
 
-        <p>
-          Conception d’un système RAG utilisant des embeddings,
-          une recherche vectorielle et des modèles Hugging Face
-          pour générer des réponses pertinentes.
-        </p>
+          <!-- 02 -->
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-icon" aria-hidden="true">⇣</div>
+            <h3>Token Saver — Optimisation des coûts LLM</h3>
+            <p>
+              Système qui réduit la quantité de tokens envoyée aux LLM tout en conservant
+              les informations pertinentes, afin de diminuer les coûts et d'améliorer
+              l'efficacité des requêtes.
+            </p>
+            <div class="tag-list">
+              <span>LLM</span><span>Optimisation de contexte</span><span>Prompt Engineering</span><span>Python</span>
+            </div>
+            <!-- <a class="project-link" href="https://github.com/Amiri2812/NOM_DU_REPO" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet Token Saver sur GitHub">Voir le projet sur GitHub ↗</a> -->
+          </article>
 
-        <div class="tag-list">
-          <span>LLM</span>
-          <span>RAG</span>
-          <span>Embeddings</span>
-          <span>Hugging Face</span>
+          <!-- 03 -->
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-icon" aria-hidden="true">◉</div>
+            <h3>Détection de Deepfakes</h3>
+            <p>
+              Modèle CNN basé sur le Transfer Learning pour classifier des images faciales
+              réelles ou générées artificiellement.
+            </p>
+            <div class="tag-list">
+              <span>Deep Learning</span><span>CNN</span><span>Transfer Learning</span><span>Computer Vision</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/Amiri2812/deepfake_Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Voir le projet Détection de Deepfakes sur GitHub"
+            >Voir le projet sur GitHub ↗</a>
+          </article>
+
+          <!-- 04 -->
+          <article class="project-card reveal">
+            <div class="project-number">04</div>
+            <div class="project-icon" aria-hidden="true">▥</div>
+            <h3>Data Warehouse & Business Intelligence</h3>
+            <p>
+              Pipeline ETL avec Talend (données ferroviaires SNCF vers SQL Server),
+              Data Warehouse en étoile et tableaux de bord Power BI avec mesures DAX.
+            </p>
+            <div class="tag-list">
+              <span>ETL</span><span>Talend</span><span>Data Warehouse</span><span>Power BI</span><span>DAX</span>
+            </div>
+          </article>
+
+          <!-- 05 -->
+          <article class="project-card reveal">
+            <div class="project-number">05</div>
+            <div class="project-icon" aria-hidden="true">⌂</div>
+            <h3>Estimation des prix de location Airbnb</h3>
+            <p>
+              Modèle de Machine Learning distribué pour estimer le prix d'un hébergement
+              Airbnb à partir de ses caractéristiques et de sa localisation.
+            </p>
+            <div class="tag-list">
+              <span>Scala</span><span>Apache Spark</span><span>Spark MLlib</span><span>Régression</span>
+            </div>
+            <!-- <a class="project-link" href="https://github.com/Amiri2812/NOM_DU_REPO" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet Airbnb sur GitHub">Voir le projet sur GitHub ↗</a> -->
+          </article>
+
+          <!-- 06 -->
+          <article class="project-card reveal">
+            <div class="project-number">06</div>
+            <div class="project-icon" aria-hidden="true">◎</div>
+            <h3>Analyse de tournois de tennis avec Spark</h3>
+            <p>
+              Analyse des relations entre joueurs, matchs et tournois : modélisation et
+              exploration des données sous forme de graphes distribués avec Apache Spark.
+            </p>
+            <div class="tag-list">
+              <span>Scala</span><span>Apache Spark</span><span>GraphX</span><span>GraphFrames</span><span>Big Data</span>
+            </div>
+            <!-- <a class="project-link" href="https://github.com/Amiri2812/NOM_DU_REPO" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet Tennis Spark sur GitHub">Voir le projet sur GitHub ↗</a> -->
+          </article>
+
+          <!-- 07 -->
+          <article class="project-card reveal">
+            <div class="project-number">07</div>
+            <div class="project-icon" aria-hidden="true">⇄</div>
+            <h3>Marché virtuel multi-agent</h3>
+            <p>
+              Marché virtuel dans lequel des agents autonomes communiquent et négocient
+              entre eux pour acheter ou vendre des produits.
+            </p>
+            <div class="tag-list">
+              <span>Java</span><span>JADE</span><span>Système multi-agent</span><span>Négociation</span>
+            </div>
+          </article>
+
+          <!-- 08 -->
+          <article class="project-card reveal">
+            <div class="project-number">08</div>
+            <div class="project-icon" aria-hidden="true">♫</div>
+            <h3>Analyse des tendances musicales Spotify</h3>
+            <p>
+              Nettoyage et analyse exploratoire de données Spotify pour identifier les
+              caractéristiques et les tendances des morceaux à l'aide de visualisations statistiques.
+            </p>
+            <div class="tag-list">
+              <span>Python</span><span>Pandas</span><span>EDA</span><span>Matplotlib</span><span>Seaborn</span>
+            </div>
+          </article>
+
         </div>
-      </article>
+      </div>
+    </section>
 
-      <!-- Projet 03 -->
-      <article class="project-card reveal">
-        <div class="project-number">03</div>
-        <div class="project-icon" aria-hidden="true">▥</div>
-
-        <h3>Data Warehouse & Business Intelligence</h3>
-
-        <p>
-          Analyse de données ferroviaires SNCF, conception d’un
-          entrepôt de données et création de tableaux de bord
-          décisionnels avec Power BI.
-        </p>
-
-        <div class="tag-list">
-          <span>ETL</span>
-          <span>Data Warehouse</span>
-          <span>Power BI</span>
-          <span>Business Intelligence</span>
-        </div>
-      </article>
-
-      <!-- Projet 04 -->
-      <article class="project-card reveal">
-        <div class="project-number">04</div>
-        <div class="project-icon" aria-hidden="true">♫</div>
-
-        <h3>Analyse des tendances musicales Spotify</h3>
-
-        <p>
-          Nettoyage et analyse exploratoire de données musicales
-          Spotify afin d’identifier les caractéristiques et les
-          tendances des morceaux à travers des visualisations statistiques.
-        </p>
-
-        <div class="tag-list">
-          <span>Python</span>
-          <span>Pandas</span>
-          <span>EDA</span>
-          <span>Matplotlib</span>
-          <span>Seaborn</span>
-        </div>
-      </article>
-
-      <!-- Projet 05 -->
-      <article class="project-card reveal">
-        <div class="project-number">05</div>
-        <div class="project-icon" aria-hidden="true">◉</div>
-
-        <h3>Analyse de tournois de tennis avec Spark</h3>
-
-        <p>
-          Analyse des relations entre joueurs, matchs et tournois.
-          Modélisation et exploration des données sous forme de graphes
-          distribués avec Apache Spark.
-        </p>
-
-        <div class="tag-list">
-          <span>Scala</span>
-          <span>Apache Spark</span>
-          <span>GraphX</span>
-          <span>GraphFrames</span>
-          <span>Big Data</span>
-        </div>
-      </article>
-
-      <!-- Projet 06 -->
-      <article class="project-card reveal">
-        <div class="project-number">06</div>
-        <div class="project-icon" aria-hidden="true">⌂</div>
-
-        <h3>Estimation des prix de location Airbnb</h3>
-
-        <p>
-          Développement d’un modèle de Machine Learning distribué
-          pour estimer le prix de location d’un hébergement Airbnb
-          à partir de ses caractéristiques et de sa localisation.
-        </p>
-
-        <div class="tag-list">
-          <span>Scala</span>
-          <span>Apache Spark</span>
-          <span>Spark MLlib</span>
-          <span>Régression</span>
-          <span>Machine Learning</span>
-        </div>
-      </article>
-
-      <!-- Projet 07 -->
-      <article class="project-card reveal">
-        <div class="project-number">07</div>
-        <div class="project-icon" aria-hidden="true">⇄</div>
-
-        <h3>Marché virtuel basé sur un système multi-agent</h3>
-
-        <p>
-          Conception d’un marché virtuel dans lequel des agents autonomes
-          communiquent et négocient entre eux afin d’acheter ou de vendre
-          des produits.
-        </p>
-
-        <div class="tag-list">
-          <span>Java</span>
-          <span>JADE</span>
-          <span>Système multi-agent</span>
-          <span>Négociation</span>
-          <span>Communication inter-agents</span>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-<!-- ------------------Compétences techniques Skills----------------- -->
-
-
+    <!-- ================= COMPÉTENCES ================= -->
     <section class="section" id="skills">
       <div class="container">
         <div class="section-heading narrow reveal">
@@ -393,52 +394,46 @@
 
         <div class="skills-grid">
           <article class="skill-card reveal">
-            <h3>Langages de programmation</h3>
-
+            <h3>NLP, LLM & systèmes multi-agents</h3>
             <p>
-              Python · SQL · Java · Scala · R · C/C++ ·
-              JavaScript · PHP · Dart
+              RAG · LangGraph · Hugging Face · Embeddings · Recherche vectorielle ·
+              Prompt Engineering · Mistral · Gemini · Llama · Orchestration multi-agent
             </p>
           </article>
           <article class="skill-card reveal">
             <h3>Machine Learning & Deep Learning</h3>
             <p>
-              Régression linéaire · KNN · K-means · CAH · ANN · CNN ·
-              Transformers · Scikit-learn · TensorFlow · PyTorch
+              Régression linéaire · KNN · K-means · CAH · ANN · CNN · Transformers ·
+              Scikit-learn · TensorFlow · Keras · PyTorch
             </p>
           </article>
           <article class="skill-card reveal">
-            <h3>NLP, LLM & systèmes multi-agents</h3>
-
-            <p>
-              LangGraph · Hugging Face · RAG · Embeddings · Prompt Engineering ·
-              Mistral · Gemini · Llama · Orchestration multi-agent
-            </p>
+            <h3>Langages de programmation</h3>
+            <p>Python · SQL · Java · Scala · R · C/C++ · JavaScript · PHP · Dart</p>
           </article>
           <article class="skill-card reveal">
             <h3>Backend & bases de données</h3>
-
             <p>
-              FastAPI · Flask · API REST · MySQL · SQLAlchemy ·
-              PyMySQL · JSON · Modélisation de bases de données
+              FastAPI · Flask · API REST · MySQL · SQL Server · SQLAlchemy ·
+              PyMySQL · Modélisation de bases de données
             </p>
           </article>
           <article class="skill-card reveal">
             <h3>Big Data & calcul distribué</h3>
-
             <p>
-              Apache Spark · Scala · Spark MLlib · GraphX · GraphFrames ·
-              Hadoop · Analyse de graphes · Machine Learning distribué
+              Apache Spark · Scala · Spark MLlib · GraphX · GraphFrames · Hadoop ·
+              Analyse de graphes · Machine Learning distribué
             </p>
           </article>
           <article class="skill-card reveal">
             <h3>Data Engineering & BI</h3>
-            <p>ETL · Data Warehouse · Power BI · Pandas · Matplotlib · Seaborn</p>
+            <p>ETL · Talend · Data Warehouse · Power BI · DAX · Pandas · Matplotlib · Seaborn</p>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- ================= FORMATION ================= -->
     <section class="section section-soft" id="education">
       <div class="container education-layout">
         <div>
@@ -460,17 +455,13 @@
             <article>
               <time>2021 – 2022</time>
               <h3>1re année — Filière MIP</h3>
-              <p>
-                Mathématiques, Informatique et Physique ·
-                Faculté des Sciences et Techniques de Fès
-              </p>
+              <p>Mathématiques, Informatique et Physique · Faculté des Sciences et Techniques de Fès</p>
             </article>
             <article>
-              <time>2021</time>
+              <time>2020 – 2021</time>
               <h3>Baccalauréat en Sciences Physiques</h3>
               <p>Lycée Ibn Rochd · Fès</p>
             </article>
-            
           </div>
         </div>
 
@@ -478,10 +469,11 @@
           <p class="eyebrow">Certifications</p>
           <h2>Apprentissage continu</h2>
           <ul>
+            <li><strong>DataCamp</strong><span>Machine Learning supervisé et non supervisé</span></li>
+            <li><strong>DataCamp</strong><span>Graph RAG avec LangChain et Neo4j</span></li>
+            <li><strong>DataCamp · 365 Data Science</strong><span>Introduction aux LLM</span></li>
+            <li><strong>AWS Academy</strong><span>Introduction to AWS IAM</span></li>
             <li><strong>Oracle Academy</strong><span>Data Modeling</span></li>
-            <li><strong>DataCamp</strong><span>Machine Learning, LLM & Web Scraping</span></li>
-            <li><strong>365 Data Science</strong><span>Introduction aux LLM</span></li>
-            <li><strong>AWS Academy</strong><span>Identity and Access Management</span></li>
           </ul>
           <div class="languages">
             <h3>Langues</h3>
@@ -493,97 +485,55 @@
       </div>
     </section>
 
-<section class="section contact-section" id="contact">
-  <div class="container contact-card reveal">
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
 
-    <div class="contact-intro">
-      <p class="eyebrow">Contact</p>
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h2>Construisons une solution intelligente ensemble.</h2>
+          <p>
+            Je recherche un stage PFE 2027 en Data Science, LLM / AI Engineering
+            ou Data Engineering. N'hésitez pas à m'écrire.
+          </p>
 
-      <h2>Construisons une solution intelligente ensemble.</h2>
+          <div class="contact-details">
+            <a href="mailto:abdelhadiamiri02@gmail.com">abdelhadiamiri02@gmail.com</a>
+            <a href="https://www.linkedin.com/in/abdelhadi-amiri1" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/Amiri2812" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
 
-      <p>
-        Je suis ouvert aux opportunités en Data Science,
-        Machine Learning, AI Engineering et Data Engineering.
-      </p>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Nom complet</label>
+            <input type="text" id="contact-name" name="name" placeholder="Votre nom" autocomplete="name" required />
+          </div>
 
-      <div class="contact-details">
-        <a href="mailto:abdelhadiamiri02@gmail.com">
-          abdelhadiamiri02@gmail.com
-        </a>
+          <div class="form-group">
+            <label for="contact-email">Adresse e-mail</label>
+            <input type="email" id="contact-email" name="email" placeholder="votre@email.com" autocomplete="email" required />
+          </div>
 
-        <a
-          href="https://www.linkedin.com/in/abdelhadi-amiri-381254313/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn ↗
-        </a>
+          <div class="form-group">
+            <label for="contact-title">Objet</label>
+            <input type="text" id="contact-title" name="title" placeholder="Objet de votre message" required />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="6" placeholder="Écrivez votre message..." required></textarea>
+          </div>
+
+          <input type="hidden" id="contact-time" name="time" />
+
+          <button class="btn btn-primary" id="contact-submit" type="submit">Envoyer le message</button>
+
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
       </div>
-    </div>
-
-    <form class="contact-form" id="contact-form">
-
-      <div class="form-group">
-        <label for="contact-name">Nom complet</label>
-        <input
-          type="text"
-          id="contact-name"
-          name="name"
-          placeholder="Votre nom"
-          required
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="contact-email">Adresse e-mail</label>
-        <input
-          type="email"
-          id="contact-email"
-          name="email"
-          placeholder="votre@email.com"
-          required
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="contact-title">Objet</label>
-        <input
-          type="text"
-          id="contact-title"
-          name="title"
-          placeholder="Objet de votre message"
-          required
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="contact-message">Message</label>
-        <textarea
-          id="contact-message"
-          name="message"
-          rows="6"
-          placeholder="Écrivez votre message..."
-          required
-        ></textarea>
-      </div>
-
-      <input type="hidden" id="contact-time" name="time" />
-
-      <button class="btn btn-primary" id="contact-submit" type="submit">
-        Envoyer le message
-      </button>
-
-      <p
-        class="form-status"
-        id="form-status"
-        role="status"
-        aria-live="polite"
-      ></p>
-
-    </form>
-
-  </div>
-</section>
+    </section>
   </main>
 
   <footer class="site-footer">
